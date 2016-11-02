@@ -14,7 +14,7 @@ class BaseViewController: UIViewController {
     lazy var visitorView : VisitorView = VisitorView.visitorView()
     
     // MARK: -定义变量
-    var isLogin : Bool = true
+    var isLogin : Bool = false
     
     // MARK: -系统回调函数
     override func loadView() {
@@ -54,7 +54,14 @@ extension BaseViewController {
     }
     
     @objc fileprivate func loginBtnClick() {
-        XHLog(message: "loginBtnClick")
+        
+        // 1.创建授权控制器
+        let oauthVc = OAuthViewController()
+        let oauthNv = UINavigationController(rootViewController: oauthVc)
+        
+        present(oauthNv, animated: true, completion: nil)
+        
+        
     }
 }
 
