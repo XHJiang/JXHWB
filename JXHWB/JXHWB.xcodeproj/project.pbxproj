@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86B974841DC97F340041A2C5 /* JXHPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B974831DC97F340041A2C5 /* JXHPresentationController.swift */; };
+		86B974861DC9856E0041A2C5 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B974851DC9856E0041A2C5 /* TestTableViewController.swift */; };
 		86EED19A1DC85C5700B6085D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EED1991DC85C5700B6085D /* AppDelegate.swift */; };
 		86EED19F1DC85C5700B6085D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86EED19D1DC85C5700B6085D /* Main.storyboard */; };
 		86EED1A11DC85C5700B6085D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86EED1A01DC85C5700B6085D /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86B974831DC97F340041A2C5 /* JXHPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JXHPresentationController.swift; path = ../JXHPresentationController.swift; sourceTree = "<group>"; };
+		86B974851DC9856E0041A2C5 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		86EED1961DC85C5700B6085D /* JXHWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXHWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EED1991DC85C5700B6085D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86EED19E1DC85C5700B6085D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -177,6 +181,7 @@
 			children = (
 				86F20CDB1DC8A844002601E2 /* UIPopover */,
 				86EED1DD1DC876DE00B6085D /* HomeViewController.swift */,
+				86B974851DC9856E0041A2C5 /* TestTableViewController.swift */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 		86F20CDB1DC8A844002601E2 /* UIPopover */ = {
 			isa = PBXGroup;
 			children = (
+				86B974831DC97F340041A2C5 /* JXHPresentationController.swift */,
 				86F20CDC1DC8A844002601E2 /* PopoverViewController.swift */,
 				86F20CDD1DC8A844002601E2 /* PopoverViewController.xib */,
 			);
@@ -377,12 +383,14 @@
 				86EED1E91DC876DE00B6085D /* ProfileViewController.swift in Sources */,
 				86F20CDE1DC8A844002601E2 /* PopoverViewController.swift in Sources */,
 				86F20CD61DC89D59002601E2 /* BaseViewController.swift in Sources */,
+				86B974841DC97F340041A2C5 /* JXHPresentationController.swift in Sources */,
 				86F20CD81DC89D7B002601E2 /* VisitorView.swift in Sources */,
 				86EED19A1DC85C5700B6085D /* AppDelegate.swift in Sources */,
 				86EED1E51DC876DE00B6085D /* DiscoverViewController.swift in Sources */,
 				86EED1E61DC876DE00B6085D /* HomeViewController.swift in Sources */,
 				86EED1F41DC8833E00B6085D /* NullViewController.swift in Sources */,
 				86EED1F01DC87E2500B6085D /* UIButton+Extension.swift in Sources */,
+				86B974861DC9856E0041A2C5 /* TestTableViewController.swift in Sources */,
 				86EED1E71DC876DE00B6085D /* MainViewController.swift in Sources */,
 				86EED1F21DC8811700B6085D /* UIBarButtonItem+Extension.swift in Sources */,
 				86EED1E81DC876DE00B6085D /* MessageViewController.swift in Sources */,
