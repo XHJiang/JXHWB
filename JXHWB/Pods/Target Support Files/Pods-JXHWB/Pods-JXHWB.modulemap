@@ -1,0 +1,6 @@
+framework module Pods_JXHWB {
+  umbrella header "Pods-JXHWB-umbrella.h"
+
+  export *
+  module * { export * }
+}
